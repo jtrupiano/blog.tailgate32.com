@@ -350,6 +350,17 @@ form label {
 
 
 /*** Blog Styles ***/
+.assistive-text {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.home a, .home a:visited, .singular a, .singular a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1982D1;
+}
+
 #main {
   clear: both;
   padding 1.625em 0 0;
@@ -361,7 +372,6 @@ form label {
   width: 100%;
   color: #373737;
   background-color: white;
-  padding: 10px 20px;
 }
 
 .singular #primary {
@@ -402,15 +412,68 @@ form label {
         visibility: hidden;
       }
 
-#secondary {
+.home #secondary {
   float: right;
   margin-right: 7.6%;
   width: 18.8%;
+  background: none;
+  padding-top: 24px;
 }
 
 .widget-area {
   font-size: 12px;
 }
+
+  .widget {
+    margin: 0 0 2.2em;
+  }
+
+  .widget_search #s {
+    width: 77%;
+    background: url("images/search.png") no-repeat 5px 6px;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 1.2em;
+    padding: 4px 10px 4px 28px;
+    border: solid 1px #DDD;
+    color: #888;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+  }
+
+  .widget_search #searchsubmit {
+    background: #DDD;
+    border: solid 1p #CCC;
+    box-shadow: inset 0px -1px 1px rgba(0, 0, 0, 0.09);
+    color: #888;
+    font-size: 13px;
+    line-height: 25px;
+    position: relative;
+    top: -2px;
+    display: none;
+  }
+
+  .widget-title {
+    color: #666;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 2.6em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+
+    .widget ul {
+      font-size: 15px;
+      margin: 0;
+      padding: 0;
+      list-style: square;
+    }
+
+      .widget ul li {
+        color: #777;
+        font-size: 13px;
+      }
 
 #primary, #primary input, #primary textarea {
   font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -454,12 +517,6 @@ form label {
   font-size: 12px;
 }
 
-  .entry-meta a, .entry-meta a:visited {
-    font-weight: bold;
-    color: #1982D1;
-    text-decoration: none;
-  }
-
   .entry-meta a:hover {
     text-decoration: underline;
   }
@@ -469,10 +526,7 @@ form label {
   }
 
     #content nav a {
-      color: #1982D1;
-      text-decoration: none;
       font-size: 12px;
-      font-weight: bold;
       line-height: 2.2em;
     }
 
@@ -529,12 +583,6 @@ article footer.entry-meta {
         font-size: 12px;
         line-height: 2.2em;
       }
-
-        .comment-meta a, .comment-meta a:visited {
-          font-weight: bold;
-          color: #1982D1;
-          text-decoration: none;
-        }
 
       a.comment-reply-link {
         background-color: #eee;
