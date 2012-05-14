@@ -351,8 +351,9 @@ form label {
 
 /*** Blog Styles ***/
 #primary {
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
+  color: #373737;
   background-color: white;
   padding: 10px 20px;
 }
@@ -381,6 +382,67 @@ form label {
     text-align: right;
   }
 
+
+#comments {
+
+}
+
+  #comments-title {
+    display: none;
+  }
+
+  .commentlist {
+    list-style: none;
+    margin: 0 auto;
+    width: 68.9%;
+  }
+
+    .commentlist > li.comment {
+      background-color: #F6F6F6;
+      border: solid 1px #DDD;
+      border-radius: 3px;
+      margin: 0 0 1.625em;
+      padding: 1.625em;
+      position: relative;
+    }
+
+    .commentlist > li::before {
+      content: url("images/comment-arrow.png");
+      left: -21px;
+      position: absolute;
+    }
+
+      .commentlist .avatar {
+        border-radius: 3px;
+        box-shadow 0 1px 2px #ccc;
+        left: -102px;
+        padding: 0;
+        position: absolute;
+        top: 0;
+      }
+
+      .comment-meta {
+        color: #666;
+        font-size: 12px;
+        line-height: 2.2em;
+      }
+
+        .comment-meta a {
+          font-weight: bold;
+          color: ##1982D1;
+          text-decoration: none;
+        }
+
+      a.comment-reply-link {
+        background-color: #eee;
+        border-radius: 3px;
+        color: #666;
+        display: inline-block;
+        font-size: 12px;
+        padding: 0 8px;
+        text-decoration: none;
+      }
+
 #respond {
   background-color: #DDD;
   border: solid 1px #D3D3D3;
@@ -392,7 +454,6 @@ form label {
 }
 
   #respond h3 {
-    color: #373737;
     font-size: 24px;
     font-weight: bold;
     line-height: 30px;
