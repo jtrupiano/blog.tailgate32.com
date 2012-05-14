@@ -388,6 +388,14 @@ h1.entry-title {
     text-align: right;
   }
 
+    #content nav a {
+      color: #1982D1;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 2.2em;
+    }
+
 
 .entry-header, .entry-content, article footer.entry-meta {
   width: 68.9%;
