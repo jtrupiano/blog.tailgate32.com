@@ -529,11 +529,13 @@ article footer.entry-meta {
     padding: 10px;
     color: #888;
     line-height: 1.625;
+    text-indent: 85px;
   }
 
   #respond input[type="text"]:focus, #respond textarea:focus {
     text-indent: 0;
     z-index: 1;
+    text-indent: 0px;
   }
 
   #respond input[type="text"] {
