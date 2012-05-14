@@ -418,7 +418,7 @@ form label {
   line-height: 1.625;
 }
 
-.entry-title {
+.home .entry-title {
   clear: both;
   font-size: 26px;
   font-weight: bold;
@@ -428,12 +428,12 @@ form label {
   padding-right: 76px;
 }
 
-  .entry-title, .entry-title a, .entry-title a:visited {
+  .home .entry-title, .entry-title a, .entry-title a:visited {
     text-decoration: none;
     color: #222;
   }
 
-  .entry-title a:hover {
+  .home .entry-title a:hover {
     color: #1982D1;
   }
 
