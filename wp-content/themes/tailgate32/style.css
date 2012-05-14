@@ -368,6 +368,13 @@ h1.entry-title {
   font-size: 36px;
   line-height: 48px;
   color: black;
+  position: relative;
+}
+
+.entry-title-callout {
+  position: absolute;
+  left: -125px;
+  top: 4px;
 }
 
 .entry-meta {
