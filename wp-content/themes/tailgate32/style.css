@@ -350,12 +350,66 @@ form label {
 
 
 /*** Blog Styles ***/
+#main {
+  clear: both;
+  padding 1.625em 0 0;
+}
+
 #primary {
-  width: 1000px;
-  margin: 0 auto;
+  float: left;
+  margin: 0 -26.4% 0 0;
+  width: 100%;
   color: #373737;
   background-color: white;
   padding: 10px 20px;
+}
+
+.singular #primary {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+  .home #content {
+    margin: 0 34% 0 7.6%;
+    width: 58.4%;
+  }
+
+    .hentry {
+      border-bottom: solid 1px #DDD;
+      margin: 0 0 1.625em;
+      padding: 0 0 1.625em;
+      position: relative;
+    }
+
+    .entry-header .comments-link a {
+      background: #EEE url("images/comment-bubble.png") no-repeat;
+      color: #666;
+      font-size: 13px;
+      font-weight: normal;
+      line-height: 35px;
+      overflow: hidden;
+      padding: 0 0 0;
+      position: absolute;
+      top: 1.5em;
+      right: 0;
+      text-align: center;
+      text-decoration: none;
+      width: 43px;
+      height: 36px;
+    }
+    
+      .entry-header .comments-link .leave-reply {
+        visibility: hidden;
+      }
+
+#secondary {
+  float: right;
+  margin-right: 7.6%;
+  width: 18.8%;
+}
+
+.widget-area {
+  font-size: 12px;
 }
 
 #primary, #primary input, #primary textarea {
@@ -364,7 +418,26 @@ form label {
   line-height: 1.625;
 }
 
-h1.entry-title {
+.entry-title {
+  clear: both;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-bottom: 0.3em;
+  padding-top: 15px;
+  padding-right: 76px;
+}
+
+  .entry-title, .entry-title a, .entry-title a:visited {
+    text-decoration: none;
+    color: #222;
+  }
+
+  .entry-title a:hover {
+    color: #1982D1;
+  }
+
+.singular .entry-title {
   font-size: 36px;
   line-height: 48px;
   color: black;
@@ -404,7 +477,7 @@ h1.entry-title {
     }
 
 
-.entry-header, .entry-content, article footer.entry-meta {
+.singular .entry-header, .singular .entry-content, .singular article footer.entry-meta {
   width: 68.9%;
   margin: 0 auto;
 }
