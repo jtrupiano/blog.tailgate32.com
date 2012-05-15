@@ -65,6 +65,15 @@
 	 */
 	wp_head();
 ?>
+<style type="text/css">
+  /* Undo WP's in-line margin */
+  html { 
+    margin: 0 !important;
+  }
+  * html body { 
+    margin: 0 !important;
+  }
+</style>
 </head>
 
 <body <?php body_class(); ?>>
