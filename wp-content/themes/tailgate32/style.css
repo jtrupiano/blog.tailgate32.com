@@ -379,6 +379,12 @@ form label {
   width: 1000px;
 }
 
+.singular #content {
+  margin: 0 7.6%;
+  position: relative;
+  width: auto;
+}
+
   .home #content {
     margin: 0 34% 0 7.6%;
     width: 58.4%;
@@ -523,6 +529,9 @@ form label {
 
   #nav-single {
     text-align: right;
+    position: relative;
+    top: 30px;
+    z-index: 1;
   }
 
     #content nav a {

@@ -8,6 +8,7 @@
  */
 ?>
 
+  <br class="clear" />
 	</div><!-- #main -->
 
   <div class="divider"></div>
