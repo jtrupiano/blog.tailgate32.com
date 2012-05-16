@@ -117,6 +117,10 @@ input.submit {
       margin: 0;
     }
 
+      .widget ul li {
+        line-height: 1.75em;
+      }
+
     .hentry {
       border-bottom: solid 1px #DDD;
       margin: 0 0 1.625em;
