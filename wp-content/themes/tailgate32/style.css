@@ -25,6 +25,10 @@ h1 {
   margin-bottom: 15px;
 }
 
+input.submit {
+  background: url("images/submit-icon-40.png") no-repeat;
+}
+
 /** Override twenteleven.css Rules **/
 .assistive-text {
   position: absolute !important;
