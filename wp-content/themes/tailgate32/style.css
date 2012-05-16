@@ -35,12 +35,6 @@ input.submit {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-a, a:visited {
-  font-weight: bold;
-  text-decoration: none;
-  color: #1982D1;
-}
-
 #main {
   clear: both;
   padding 1.625em 0 0;
@@ -54,6 +48,13 @@ a, a:visited {
   box-shadow: 4px 4px 20px #666 inset, -4px -4px 20px #ccc inset;
   border-radius: 6px;
 }
+
+  #primary a, #primary a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1982D1;
+  }
+
 
 #content {
   padding: 20px;
@@ -69,12 +70,11 @@ a, a:visited {
     padding-bottom: 0.3em;
   }
 
-    .post .entry-title, .entry-title a, .post .entry-title a:visited {
-      text-decoration: none;
+    #primary h2.entry-title, #primary h2.entry-title a, #primary h2.entry-title a:visited {
       color: #222;
     }
 
-    .post .entry-title a:hover {
+    #primary h2.entry-title a:hover {
       color: #1982D1;
     }
 
