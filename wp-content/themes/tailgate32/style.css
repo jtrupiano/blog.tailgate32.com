@@ -11,6 +11,20 @@ Version: 1.0
   background: url("images/asphalt.jpg");
 }
 
+h1 {
+  font-size: 36px;
+  color: #222;
+}
+
+.headline h1 {
+  position: relative;
+  top: -5px;
+}
+
+.headline {
+  margin-bottom: 15px;
+}
+
 /** Override twenteleven.css Rules **/
 .assistive-text {
   position: absolute !important;
@@ -66,22 +80,28 @@ a, a:visited {
   margin-left: 20px;
   box-shadow: 4px 4px 20px #ccc inset, -4px -4px 20px #ccc inset;
   border-radius: 6px;
-  padding: 10px 20px;
+  padding: 0 20px;
   background-color: #fff100;
   color: #222;
 }
 
   #secondary aside {
     margin-bottom: 20px;
+    clear: both;
   }
 
   .widget {
     margin: 0 0 2.2em;
   }
 
-  .widget.author {
-    text-align: center;
-  }
+    .widget.author img {
+      float: left;
+      margin: 0 10px 5px 0;
+    }
+
+    .widget.author p {
+      font-size: 14px;
+    }
 
     .widget ul {
       padding: 0 0 0 20px;

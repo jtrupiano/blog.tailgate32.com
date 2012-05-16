@@ -2,9 +2,7 @@
 /**
  * The default template for displaying content
  *
- * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @package Tailgate32
  */
 ?>
 
@@ -16,8 +14,7 @@
 					<h3 class="entry-format"><?php _e( 'Featured', 'twentyeleven' ); ?></h3>
 				</hgroup>
 			<?php else : ?>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-left.png" />
-			<h1 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyeleven' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyeleven' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 			<?php endif; ?>
 
 			<?php if ( 'post' == get_post_type() ) : ?>
