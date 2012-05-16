@@ -47,6 +47,8 @@
 <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|PT+Sans|PT+Serif' rel='stylesheet' type='text/css' />
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_directory_uri(); ?>/tailgate32.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/jquery.fancybox.css?v=2.0.6" type="text/css" media="screen" />
+
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
@@ -86,6 +88,7 @@
     </div>
     <div id="menu">
       <a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/nav-blog.png" alt="Tailgate32 Blog" /></a>
+      <a id="contact-us-nav" href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/nav-contact-us.png" alt="Contact Tailgate32" width="128" height="43" /></a>      
     </div>
     <br class="break" />
   </div>
