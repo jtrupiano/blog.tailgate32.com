@@ -84,7 +84,7 @@ a, a:visited {
   margin-left: 20px;
   box-shadow: 4px 4px 20px #ccc inset, -4px -4px 20px #ccc inset;
   border-radius: 6px;
-  padding: 0 20px;
+  padding: 20px 20px;
   background-color: #fff100;
   color: #222;
 }
@@ -98,14 +98,19 @@ a, a:visited {
     margin: 0 0 2.2em;
   }
 
-    .widget.author img {
-      float: left;
-      margin: 0 10px 5px 0;
+    .widget.author div {
+      position: relative;
+      top: -10px;
     }
 
-    .widget.author p {
-      font-size: 14px;
-    }
+      .widget.author img {
+        float: left;
+        margin: 0 10px 5px 0;
+      }
+
+      .widget.author p {
+        font-size: 14px;
+      }
 
     .widget ul {
       padding: 0 0 0 20px;
