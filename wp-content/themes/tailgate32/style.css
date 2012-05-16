@@ -17,7 +17,7 @@ Version: 1.0
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-.home a, .home a:visited, .singular a, .singular a:visited {
+a, a:visited {
   font-weight: bold;
   text-decoration: none;
   color: #1982D1;
@@ -37,29 +37,30 @@ Version: 1.0
   border-radius: 6px;
 }
 
-  .home #content {
-    padding: 20px;
+#content {
+  padding: 20px;
+}
+
+
+.post .entry-header img {
+  float: right;
+}
+
+  .post .entry-title {
+    line-height: 1.5em;
+    padding-bottom: 0.3em;
   }
 
-    .home .entry-header img {
-      float: right;
+    .post .entry-title, .entry-title a, .post .entry-title a:visited {
+      text-decoration: none;
+      color: #222;
     }
 
-      .home .entry-title {
-        line-height: 1.5em;
-        padding-bottom: 0.3em;
-      }
+    .post .entry-title a:hover {
+      color: #1982D1;
+    }
 
-        .home .entry-title, .entry-title a, .entry-title a:visited {
-          text-decoration: none;
-          color: #222;
-        }
-
-        .home .entry-title a:hover {
-          color: #1982D1;
-        }
-
-.home #secondary {
+#secondary {
   float: left;
   width: 240px;
   margin-left: 20px;
@@ -70,7 +71,7 @@ Version: 1.0
   color: black;
 }
 
-  .home #secondary aside {
+  #secondary aside {
     margin-bottom: 20px;
   }
 
@@ -78,22 +79,14 @@ Version: 1.0
     margin: 0 0 2.2em;
   }
 
+  .widget.author {
+    text-align: center;
+  }
+
     .widget ul {
       padding: 0 0 0 20px;
       margin: 0;
     }
-
-
-.singular #primary {
-  margin: 0 auto;
-  width: 1000px;
-}
-
-.singular #content {
-  margin: 0 7.6%;
-  position: relative;
-  width: auto;
-}
 
     .hentry {
       border-bottom: solid 1px #DDD;
@@ -101,48 +94,6 @@ Version: 1.0
       padding: 0 0 1.625em;
       position: relative;
     }
-
-    .entry-header .comments-link a {
-      background: #EEE url("images/comment-bubble.png") no-repeat;
-      color: #666;
-      font-size: 13px;
-      font-weight: normal;
-      line-height: 35px;
-      overflow: hidden;
-      padding: 0 0 0;
-      position: absolute;
-      top: 1.5em;
-      right: 0;
-      text-align: center;
-      text-decoration: none;
-      width: 43px;
-      height: 36px;
-    }
-    
-      .entry-header .comments-link .leave-reply {
-        visibility: hidden;
-      }
-
-
-#primary, #primary input, #primary textarea {
-  font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  line-height: 1.625;
-}
-
-
-.singular .entry-title {
-  font-size: 36px;
-  line-height: 48px;
-  color: black;
-  position: relative;
-}
-
-.entry-title-callout {
-  position: absolute;
-  left: -125px;
-  top: 4px;
-}
 
 .entry-meta {
   font-size: 12px;
@@ -152,23 +103,6 @@ Version: 1.0
     text-decoration: underline;
   }
 
-  #nav-single {
-    text-align: right;
-    position: relative;
-    top: 30px;
-    z-index: 1;
-  }
-
-    #content nav a {
-      font-size: 12px;
-      line-height: 2.2em;
-    }
-
-
-.singular .entry-header, .singular .entry-content, .singular article footer.entry-meta {
-  width: 68.9%;
-  margin: 0 auto;
-}
 
 article footer.entry-meta {
   margin-bottom: 20px;
@@ -184,8 +118,7 @@ article footer.entry-meta {
 
   .commentlist {
     list-style: none;
-    margin: 0 auto;
-    width: 68.9%;
+    padding: 0 0 0 100px;
   }
 
     .commentlist > li.comment {
@@ -304,17 +237,9 @@ article footer.entry-meta {
   border: solid 1px #D3D3D3;
   border-radius: 3px;
   margin: 0 auto 1.625em;
-  padding: 1.625em;
-  position: relative;
-  width: 68.9%;
+  width: 620px;
+  padding: 20px;
 }
-
-  #respond h3 {
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 30px;
-    margin: 0;
-  }
 
   #respond p {
     margin: 10px 0;

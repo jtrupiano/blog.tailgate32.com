@@ -10,8 +10,8 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-left.png" />
     <h1 class="entry-title">
-      <img class="entry-title-callout" src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrows-right.png" alt="" />
       <?php the_title(); ?>
     </h1>
 

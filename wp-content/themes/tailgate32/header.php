@@ -87,7 +87,7 @@
       <a href="#" target="_blank" title="Contribute to our Kickstarter Campaign"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_kickstarter.png" alt="Tailgate32's Kickstarter Campaign" /></a>
     </div>
     <div id="menu">
-      <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/nav-blog.png" alt="Tailgate32 Blog" /></a>
+      <a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/nav-blog.png" alt="Tailgate32 Blog" /></a>
       <a id="contact-us-nav" href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/nav-contact-us.png" alt="Contact Tailgate32" /></a>
     </div>
     <br class="break" />
