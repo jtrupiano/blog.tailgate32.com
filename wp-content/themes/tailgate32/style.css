@@ -38,8 +38,26 @@ Version: 1.0
 }
 
   .home #content {
-    padding: 0 20px;
+    padding: 20px;
   }
+
+    .home .entry-header img {
+      float: right;
+    }
+
+      .home .entry-title {
+        line-height: 1.5em;
+        padding-bottom: 0.3em;
+      }
+
+        .home .entry-title, .entry-title a, .entry-title a:visited {
+          text-decoration: none;
+          color: #222;
+        }
+
+        .home .entry-title a:hover {
+          color: #1982D1;
+        }
 
 .home #secondary {
   float: left;
@@ -112,24 +130,6 @@ Version: 1.0
   line-height: 1.625;
 }
 
-.home .entry-title {
-  clear: both;
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 1.5em;
-  padding-bottom: 0.3em;
-  padding-top: 15px;
-  padding-right: 76px;
-}
-
-  .home .entry-title, .entry-title a, .entry-title a:visited {
-    text-decoration: none;
-    color: #222;
-  }
-
-  .home .entry-title a:hover {
-    color: #1982D1;
-  }
 
 .singular .entry-title {
   font-size: 36px;
