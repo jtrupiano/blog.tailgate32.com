@@ -6,6 +6,12 @@ Template: twentyeleven
 Version: 1.0
 */
 
+/** Override tailgate32.css Rules **/
+#masthead {
+  background: url("images/asphalt.jpg");
+}
+
+/** Override twenteleven.css Rules **/
 .assistive-text {
   position: absolute !important;
   clip: rect(1px, 1px, 1px, 1px);
@@ -24,11 +30,40 @@ Version: 1.0
 
 #primary {
   float: left;
-  margin: 0 -26.4% 0 0;
-  width: 100%;
-  color: #373737;
-  background-color: white;
+  width: 700px;
+  color: #000;
+  background-color: #f5fffa;
+  box-shadow: 4px 4px 20px #ccc inset, -4px -4px 20px #ccc inset;
+  border-radius: 6px;
 }
+
+  .home #content {
+    padding: 0 20px;
+  }
+
+.home #secondary {
+  float: left;
+  width: 240px;
+  margin-left: 20px;
+  background-color: #fff100;
+  box-shadow: 4px 4px 20px #ccc inset, -4px -4px 20px #ccc inset;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+  .home #secondary aside {
+    margin-bottom: 20px;
+  }
+
+  .widget {
+    margin: 0 0 2.2em;
+  }
+
+    .widget ul {
+      padding: 0 0 0 20px;
+      margin: 0;
+    }
+
 
 .singular #primary {
   margin: 0 auto;
@@ -40,11 +75,6 @@ Version: 1.0
   position: relative;
   width: auto;
 }
-
-  .home #content {
-    margin: 0 34% 0 7.6%;
-    width: 58.4%;
-  }
 
     .hentry {
       border-bottom: solid 1px #DDD;
@@ -74,68 +104,6 @@ Version: 1.0
         visibility: hidden;
       }
 
-.home #secondary {
-  float: right;
-  margin-right: 7.6%;
-  width: 18.8%;
-  background: none;
-  padding-top: 24px;
-}
-
-.widget-area {
-  font-size: 12px;
-}
-
-  .widget {
-    margin: 0 0 2.2em;
-  }
-
-  .widget_search #s {
-    width: 77%;
-    background: url("images/search.png") no-repeat 5px 6px;
-    border-radius: 2px;
-    font-size: 14px;
-    line-height: 1.2em;
-    padding: 4px 10px 4px 28px;
-    border: solid 1px #DDD;
-    color: #888;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
-  }
-
-  .widget_search #searchsubmit {
-    background: #DDD;
-    border: solid 1p #CCC;
-    box-shadow: inset 0px -1px 1px rgba(0, 0, 0, 0.09);
-    color: #888;
-    font-size: 13px;
-    line-height: 25px;
-    position: relative;
-    top: -2px;
-    display: none;
-  }
-
-  .widget-title {
-    color: #666;
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    line-height: 2.6em;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-  }
-
-    .widget ul {
-      font-size: 15px;
-      margin: 0;
-      padding: 0;
-      list-style: square;
-    }
-
-      .widget ul li {
-        color: #777;
-        font-size: 13px;
-      }
 
 #primary, #primary input, #primary textarea {
   font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;

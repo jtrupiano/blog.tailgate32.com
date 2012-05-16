@@ -46,6 +46,7 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
+<link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|PT+Sans|PT+Serif' rel='stylesheet' type='text/css' />
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_directory_uri(); ?>/tailgate32.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -81,8 +82,9 @@
 
   <div id="navigation">
     <div id="social-media-header">
-      <a href="https://twitter.com/#!/tailgate_32" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_twitter.png" alt="See @tailgate_32 on Twitter" /></a>
-      <a href="https://www.facebook.com/tailgate32" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_facebook.png" alt="Find Tailgate32 on Facebook" /></a>
+      <a href="https://twitter.com/#!/tailgate_32" target="_blank" title="Follow @tailgate_32 on Twitter"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_twitter.png" alt="See @tailgate_32 on Twitter" /></a>
+      <a href="https://www.facebook.com/tailgate32" target="_blank" title="Like Tailgate32 on Facebook"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_facebook.png" alt="Find Tailgate32 on Facebook" /></a>
+      <a href="#" target="_blank" title="Contribute to our Kickstarter Campaign"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_kickstarter.png" alt="Tailgate32's Kickstarter Campaign" /></a>
     </div>
     <div id="menu">
       <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/nav-blog.png" alt="Tailgate32 Blog" /></a>

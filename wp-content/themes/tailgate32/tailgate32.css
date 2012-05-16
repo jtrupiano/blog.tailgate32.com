@@ -1,31 +1,46 @@
 body {
   background-color: #323232;
-  font-family: Arial, Helvetica;
   margin: 0;
+}
+
+body, p {
+  font-family: "PT Sans", sans-serif;
   line-height: 1.5;
+  font-size: 15px;
 }
 
 h1 {
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
+  font-family: "Alfa Slab One", serif;
+  font-size: 24px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #f5fffa;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Alfa Slab One", serif;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: black;
   margin: 0;
 }
 
   .headline img {
-    float: left;
-    margin-right: 15px;
+    float: right;
+    margin-left: 15px;
   }
 
   .headline h2 {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0;
-    color: black;
-    padding-left: 10px;
     position: relative;
     top: 5px;
   }
+
+h3, h4 {
+  font-family: "PT Serif", serif;
+  margin: 0;
+}
 
 input {
   margin: 0;
@@ -93,7 +108,7 @@ form label {
 .divider {
   height: 4px;
   width: 100%;
-  background-color: #fff;
+  background-color: #f5fffa;
 }
 
 .clear {
@@ -102,17 +117,18 @@ form label {
 
 #navigation {
   width: 1000px;
-  margin: 17px auto 0px auto;
+  margin: 8px auto 0px auto;
   height: 43px;
 }
 
   #social-media-header {
     width: 200px;
     float: left;
+    margin-top: 6px;
   }
 
     #social-media-header a {
-      margin-right: 5px;
+      margin-right: 10px;
     }
 
   #menu {
@@ -126,11 +142,11 @@ form label {
     }
 
 #masthead {
-  background: url("images/asphalt.jpg");
+  background: url("../images/asphalt.jpg");
 }
 
   #logo_container {
-    margin: 20px 0 15px 0;
+    margin: 20px 0 10px 0;
     text-align: center;
   }
 
@@ -145,45 +161,47 @@ form label {
   }
 
     #video-container {
-      border: solid 6px white;
-      border-radius: 10px;
-      background-color: white;
+      border: solid 6px #f5fffa;
+      border-radius: 6px;
       width: 537px;
       height: 301px;
     }
 
     #social-media {
-      margin: 15px auto;
+      margin: 5px auto 0;
       padding: 5px;
-      background: white;
       width: 537px;
     }
 
+      .fb-like {
+        height: 25px;
+      }
+
   #main .right {
-    width: 422px;
-    margin-left: 25px;
+    width: 427px;
+    margin-left: 20px;
     float: left
   }
 
     #call-to-action {
-
+      color: #f5fffa;
     }
 
     #tshirt-container {
       float: right;
-      margin: 0px 0px 12px 12px;
+      margin: 0px 0px 20px 20px;
     }
 
         #tshirt-box {
-          border: solid 2px white;
-          border-radius: 20px 20px 0px 0px;
+          border: solid 4px #f5fffa;
+          border-radius: 6px 6px 0px 0px;
           width: 180px;
           text-align: center;
           padding: 15px 0 10px 0;
         }
 
           #tshirt-box a {
-            color: white;
+            color: #f5fffa;
             font-size: 10px;
             text-decoration: none;
           }
@@ -193,9 +211,9 @@ form label {
           }
 
         #kickstarter {
-          border: solid 2px white;
+          border: solid 4px #f5fffa;
           border-top: none;
-          border-radius: 0px 0px 20px 20px;
+          border-radius: 0px 0px 6px 6px;
           background-color: #ff9a28;
           text-align: center;
           padding: 10px 0px 5px 0px;
@@ -204,11 +222,6 @@ form label {
           #kickstarter a {
             display: block;
           }
-
-      #call-to-action p {
-        font-size: 14px;
-        color: white;
-      }
 
 #secondary {
   background: url("../images/asphalt.jpg");
@@ -224,6 +237,8 @@ form label {
     float: left;
     background-color: #fff100;
     padding: 10px 0px;
+    box-shadow: 4px 4px 20px #ccc inset, -4px -4px 20px #ccc inset;
+    border-radius: 6px;
   }
 
     #secondary .left h2 {
@@ -232,38 +247,54 @@ form label {
 
     #secondary .left div {
       font-weight: bold;
-      font-size: 14px;
     }
 
-      #secondary .left div span {
-        width: 45%;
+      #secondary .left div span.date {
+        color: #404000;
         text-align: right;
         font-weight: normal;
+        font-size: 13px;
+        width: 7em;
         display: block;
         float: left;
-        padding-right: 5%;
+        padding-right: 5px;
+        position: relative;
+        top: 2px;
+      }
+
+      #secondary .left div span.home {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      #secondary .left div span.away {
+        color: #404000;
+        font-weight: normal;
+        font-size: 14px;
+        display: none;
       }
 
   #secondary .right {
-    width: 700px;
-    margin-left: 40px;
+    width: 720px;
+    margin-left: 20px;
     float: left;
   }
 
     #secondary .right .content-box {
-      background-color: white;
-      padding: 10px;
+      background-color: #f5fffa;
+      padding: 20px;
       margin-bottom: 20px;
+      box-shadow: 4px 4px 20px #666 inset, -4px -4px 20px #666 inset;
+      border-radius: 6px;
+    }
+
+    #secondary .right .content-box.last {
+      margin-bottom: 0;
     }
 
     #latest-blog .blog-title {
       font-size: 16px;
       font-weight: bold;
-    }
-
-    #latest-blog .blog-body {
-      font-weight: normal;
-      font-size: 14px;
     }
 
       .blog-post img {
@@ -311,7 +342,6 @@ form label {
     }
 
       #favorite-photos-container .favorite-photo .title {
-        font-size: 14px;
         font-weight: bold;
       }
 
@@ -338,4 +368,3 @@ form label {
   #contact-us {
     width: 600px;
   }
-
