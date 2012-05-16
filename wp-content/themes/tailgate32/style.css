@@ -33,7 +33,7 @@ a, a:visited {
   width: 700px;
   color: #000;
   background-color: #f5fffa;
-  box-shadow: 4px 4px 20px #ccc inset, -4px -4px 20px #ccc inset;
+  box-shadow: 4px 4px 20px #666 inset, -4px -4px 20px #666 inset;
   border-radius: 6px;
 }
 
