@@ -31,9 +31,9 @@ a, a:visited {
 #primary {
   float: left;
   width: 700px;
-  color: #000;
+  color: #222;
   background-color: #f5fffa;
-  box-shadow: 4px 4px 20px #666 inset, -4px -4px 20px #666 inset;
+  box-shadow: 4px 4px 20px #666 inset, -4px -4px 20px #ccc inset;
   border-radius: 6px;
 }
 
@@ -68,7 +68,7 @@ a, a:visited {
   border-radius: 6px;
   padding: 10px 20px;
   background-color: #fff100;
-  color: black;
+  color: #222;
 }
 
   #secondary aside {
