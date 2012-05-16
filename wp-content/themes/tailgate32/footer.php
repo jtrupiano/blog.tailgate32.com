@@ -14,8 +14,8 @@
   <div class="divider"></div>
   <div id="footer">&nbsp;</div>
 
+  <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/tailgate32.js"></script>
   <script type="text/javascript">
-
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-31443965-1']);
     _gaq.push(['_setDomainName', 'tailgate32.com']);
@@ -26,7 +26,6 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-
   </script>
 </body>
 </html>
