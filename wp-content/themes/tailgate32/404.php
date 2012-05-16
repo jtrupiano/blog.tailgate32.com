@@ -11,12 +11,13 @@ get_header(); ?>
 		<div id="content" role="main">
 
 			<article id="post-0" class="post error404 not-found">
-				<header class="entry-header">
+				<header class="entry-header headline">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-left.png" />
 					<h1 class="entry-title"><?php _e( 'This is somewhat embarrassing, isn&rsquo;t it?', 'twentyeleven' ); ?></h1>
 				</header>
 
 				<div class="entry-content">
-					<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help.', 'twentyeleven' ); ?></p>
+					<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links to the right, can help.', 'twentyeleven' ); ?></p>
 
 					<?php get_search_form(); ?>
         </div>
