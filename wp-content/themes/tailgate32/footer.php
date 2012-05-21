@@ -28,7 +28,7 @@
       <div class="right">
         <img id="tshirt-back" src="http://tailgate32.com/images/tshirts/arizona-back.png" alt="Tailgate32 T-Shirt Back" width="483" height="414" />
         <div class="button-container">
-          <a href="http://www.kickstarter.com/projects/jtrupiano/2025207769?token=7b4cdd40" target="_blank"><img src="images/submit-icon-40.png" /><span>I Want This Shirt!</span></a>
+          <a href="http://www.kickstarter.com/projects/jtrupiano/2025207769?token=7b4cdd40" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/submit-icon-40.png" /><span>I Want This Shirt!</span></a>
         </div>
       </div>
       <br class="clear" />
