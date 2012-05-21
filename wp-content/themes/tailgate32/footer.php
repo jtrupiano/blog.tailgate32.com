@@ -15,6 +15,16 @@
   <div id="footer">&nbsp;</div>
 
   <div id="hidden-content">
+    <div id="tshirt-viewer">
+      <h3>Donate $25 and Get a Tailgate32 Shirt in Your Team's Colors!</h3>
+      <img id="tshirt-front" src="images/tshirts/arizona-front.png" alt="Tailgate32 T-Shirt Front" width="483" height="414" />
+      <img id="tshirt-back" src="images/tshirts/arizona-back.png" alt="Tailgate32 T-Shirt Back" width="483" height="414" />
+      <div id="tshirt-menu">
+        <label for="tshirt-options">Choose Your Team</label>
+        <select id="tshirt-options">
+        </select>
+      </div>
+    </div>    
     <div id="contact-us">
       <iframe style="display: none;" name="contact.us.iframe" src="https://docs.google.com/spreadsheet/viewform?formkey=dEY2MXNvVDRBWlN1SEE0RHRyQU42d3c6MQ"></iframe>
       <div class="headline">
