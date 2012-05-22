@@ -84,7 +84,7 @@
     <div id="social-media-header">
       <a href="https://twitter.com/#!/tailgate_32" target="_blank" title="Follow @tailgate_32 on Twitter"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_twitter.png" alt="See @tailgate_32 on Twitter" /></a>
       <a href="https://www.facebook.com/tailgate32" target="_blank" title="Like Tailgate32 on Facebook"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_facebook.png" alt="Find Tailgate32 on Facebook" /></a>
-      <a href="http://www.kickstarter.com/projects/jtrupiano/2025207769?token=7b4cdd40" target="_blank" title="Contribute to our Kickstarter Campaign"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_kickstarter.png" alt="Tailgate32's Kickstarter Campaign" /></a>
+      <a href="http://www.kickstarter.com/projects/jtrupiano/tailgate32-the-ultimate-football-fan-roadtrip" target="_blank" title="Contribute to our Kickstarter Campaign"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_kickstarter.png" alt="Tailgate32's Kickstarter Campaign" /></a>
     </div>
     <div id="menu">
       <a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/nav-blog.png" alt="Tailgate32 Blog" /></a>
