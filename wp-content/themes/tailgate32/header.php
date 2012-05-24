@@ -22,6 +22,8 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
+<meta name="description" content="The Official Tailgate32 Blog.  Two guys in an RV documenting the American traditions of roadtrips, tailgating, and pro football. 17 weeks. 32 games. 25,000 miles." />
+<meta name="keywords" content="Tailgate32, Tailgate, 32, blog, tailgating, Tailgate 32, roadtrips, road trips, pro football, 17 weeks, 32 gmaes, 25000 miles, documentary, experience, journey, RV, cross country" />
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
