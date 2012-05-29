@@ -90,7 +90,7 @@
     </div>
     <div id="menu">
       <a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/nav-blog.png" alt="Tailgate32 Blog" /></a>
-      <a id="contact-us-nav" href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/nav-contact-us.png" alt="Contact Tailgate32" width="128" height="43" /></a>      
+      <a id="contact-us-nav" class="contact-us-link" href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/nav-contact-us.png" alt="Contact Tailgate32" width="128" height="43" /></a>      
     </div>
     <br class="break" />
   </div>

@@ -1,6 +1,6 @@
 $().ready(function() {
   // Set up contact us fancybox
-  $('#contact-us-nav, .contact-us-link').click(function() {
+  $('.contact-us-link').click(function() {
     // clear the form
     $('#contact-us-form input[type="text"], #contact-us-form textarea').val("");
     $('#contact-us-form').show();
