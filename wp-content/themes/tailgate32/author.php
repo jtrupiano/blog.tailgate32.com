@@ -13,7 +13,7 @@ get_header(); ?>
 		<section id="primary">
 			<div id="content" role="main">
         <div class="headline">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-left.png" />
+          <img src="http://assets.tailgate32.com/images/arrow-left.png" />
           <h1><?php echo $authordata->display_name; ?>'s Blog Posts</h1>
         </div>
 

@@ -12,7 +12,7 @@ get_header(); ?>
 
 			<article id="post-0" class="post error404 not-found">
 				<header class="entry-header headline">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-left.png" />
+          <img src="http://assets.tailgate32.com/images/arrow-left.png" />
 					<h1 class="entry-title"><?php _e( 'This is somewhat embarrassing, isn&rsquo;t it?', 'twentyeleven' ); ?></h1>
 				</header>
 

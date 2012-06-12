@@ -10,7 +10,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-left.png" />
+    <img src="http://assets.tailgate32.com/images/arrow-left.png" />
     <h1 class="entry-title">
       <?php the_title(); ?>
     </h1>

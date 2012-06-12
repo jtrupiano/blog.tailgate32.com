@@ -18,7 +18,7 @@
     <div id="tshirt-viewer">
       <h3>Donate $25 and Get a Tailgate32 Shirt in Your Team's Colors!</h3>
       <div class="left">
-        <img id="tshirt-front" src="http://tailgate32.com/images/tshirts/arizona-front.png" alt="Tailgate32 T-Shirt Front" width="483" height="414" />
+        <img id="tshirt-front" src="http://assets.tailgate32.com/images/tshirts/arizona-front.png" alt="Tailgate32 T-Shirt Front" width="483" height="414" />
         <div class="team-selector">
           <label for="tshirt-options">Choose Your Team</label>
           <select id="tshirt-options">
@@ -26,9 +26,9 @@
         </div>
       </div>
       <div class="right">
-        <img id="tshirt-back" src="http://tailgate32.com/images/tshirts/arizona-back.png" alt="Tailgate32 T-Shirt Back" width="483" height="414" />
+        <img id="tshirt-back" src="http://assets.tailgate32.com/images/tshirts/arizona-back.png" alt="Tailgate32 T-Shirt Back" width="483" height="414" />
         <div class="button-container">
-          <a href="http://www.kickstarter.com/projects/jtrupiano/tailgate32-the-ultimate-football-fan-roadtrip" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/submit-icon-40.png" /><span>I Want This Shirt!</span></a>
+          <a href="http://www.kickstarter.com/projects/jtrupiano/tailgate32-the-ultimate-football-fan-roadtrip" target="_blank"><img src="http://assets.tailgate32.com/images/submit-icon-40.png" /><span>I Want This Shirt!</span></a>
         </div>
       </div>
       <br class="clear" />
@@ -36,7 +36,7 @@
     <div id="contact-us">
       <iframe style="display: none;" name="contact.us.iframe" src="https://docs.google.com/spreadsheet/viewform?formkey=dEY2MXNvVDRBWlN1SEE0RHRyQU42d3c6MQ"></iframe>
       <div class="headline">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-left.png" alt="" />
+        <img src="http://assets.tailgate32.com/images/arrow-left.png" alt="" />
         <h2>Contact Tailgate32</h2>
         <br class="clear" />
       </div>
@@ -61,8 +61,8 @@
     </div>
   </div>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-  <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/jquery.fancybox.pack.js?v=2.0.6"></script>
-  <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/tailgate32.js"></script>
+  <script type="text/javascript" src="http://assets.tailgate32.com/js/fancybox/source/jquery.fancybox.pack.js?v=2.0.6"></script>
+  <script type="text/javascript" src="http://assets.tailgate32.com/js/tailgate32.js"></script>
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-31443965-1']);

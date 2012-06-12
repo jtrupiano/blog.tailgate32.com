@@ -16,7 +16,7 @@ get_header(); ?>
 		<div id="primary">
 			<div id="content" role="main">
         <div class="headline">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-left.png" />
+          <img src="http://assets.tailgate32.com/images/arrow-left.png" />
           <h1>Tailgate32: The Blog</h1>
         </div>
 

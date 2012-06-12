@@ -47,9 +47,9 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|PT+Sans|PT+Serif' rel='stylesheet' type='text/css' />
-<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_directory_uri(); ?>/tailgate32.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://assets.tailgate32.com/css/tailgate32.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/jquery.fancybox.css?v=2.0.6" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://assets.tailgate32.com/js/fancybox/source/jquery.fancybox.css?v=2.0.6" type="text/css" media="screen" />
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if lt IE 9]>
@@ -84,20 +84,20 @@
 
   <div id="navigation">
     <div id="social-media-header">
-      <a href="https://twitter.com/#!/tailgate_32" target="_blank" title="Follow @tailgate_32 on Twitter"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_twitter.png" alt="See @tailgate_32 on Twitter" /></a>
-      <a href="https://www.facebook.com/tailgate32" target="_blank" title="Like Tailgate32 on Facebook"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_facebook.png" alt="Find Tailgate32 on Facebook" /></a>
-      <a href="http://www.kickstarter.com/projects/jtrupiano/tailgate32-the-ultimate-football-fan-roadtrip" target="_blank" title="Contribute to our Kickstarter Campaign"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon_kickstarter.png" alt="Tailgate32's Kickstarter Campaign" /></a>
+      <a href="https://twitter.com/#!/tailgate_32" target="_blank" title="Follow @tailgate_32 on Twitter"><img src="http://assets.tailgate32.com/images/icon_twitter.png" alt="See @tailgate_32 on Twitter" /></a>
+      <a href="https://www.facebook.com/tailgate32" target="_blank" title="Like Tailgate32 on Facebook"><img src="http://assets.tailgate32.com/images/icon_facebook.png" alt="Find Tailgate32 on Facebook" /></a>
+      <a href="http://www.kickstarter.com/projects/jtrupiano/tailgate32-the-ultimate-football-fan-roadtrip" target="_blank" title="Contribute to our Kickstarter Campaign"><img src="http://assets.tailgate32.com/images/icon_kickstarter.png" alt="Tailgate32's Kickstarter Campaign" /></a>
     </div>
     <div id="menu">
-      <a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/nav-blog.png" alt="Tailgate32 Blog" /></a>
-      <a id="contact-us-nav" class="contact-us-link" href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/nav-contact-us.png" alt="Contact Tailgate32" width="128" height="43" /></a>      
+      <a href="/"><img src="http://assets.tailgate32.com/images/nav-blog.png" alt="Tailgate32 Blog" /></a>
+      <a id="contact-us-nav" class="contact-us-link" href="#"><img src="http://assets.tailgate32.com/images/nav-contact-us.png" alt="Contact Tailgate32" width="128" height="43" /></a>      
     </div>
     <br class="break" />
   </div>
   <div id="masthead">
     <div class="divider"></div>
     <div id="logo_container">
-      <a href="http://tailgate32.com"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/T32Header.png" alt="Tailgate32: The Ultimate Football Fan Roadtrip" /></a>
+      <a href="http://tailgate32.com"><img src="http://assets.tailgate32.com/images/T32Header.png" alt="Tailgate32: The Ultimate Football Fan Roadtrip" /></a>
     </div>
     <div class="divider"></div>
   </div>

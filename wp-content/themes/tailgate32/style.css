@@ -7,10 +7,6 @@ Version: 1.0
 */
 
 /** Override tailgate32.css Rules **/
-#masthead {
-  background: url("images/asphalt.jpg");
-}
-
 h1 {
   font-size: 36px;
   color: #222;
@@ -23,10 +19,6 @@ h1 {
 
 .headline {
   margin-bottom: 15px;
-}
-
-input.submit {
-  background: url("images/submit-icon-40.png") no-repeat;
 }
 
 /** Override twenteleven.css Rules **/
