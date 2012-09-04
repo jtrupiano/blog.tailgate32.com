@@ -47,8 +47,8 @@
   <script type="text/javascript" src="http://assets.tailgate32.com/js/tailgate32.js"></script>
   <script type="text/javascript">
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-31443965-1']);
-    _gaq.push(['_setDomainName', 'tailgate32.com']);
+    _gaq.push(['_setAccount', 'UA-23116100-1']);
+    _gaq.push(['_setDomainName', 'footballnation.com']);
     _gaq.push(['_trackPageview']);
 
     (function() {
